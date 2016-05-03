@@ -1,0 +1,6 @@
+# nice resource for Chord implementation:
+https://github.com/pedrotgn/python-p2p/blob/master/chord/chord.py
+https://github.com/gaston770/python-chord
+
+ps aux | grep python | grep "client.py" | awk '{print "kill ", $2}' |sh
+ps aux | grep python | grep "start_node" | awk '{print "kill ", $2}' |sh
